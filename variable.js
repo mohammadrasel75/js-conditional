@@ -23,3 +23,14 @@ var passed = true;
  * 6.prefer cameCase
  */
 
+var lastExamResult = 89;
+
+
+/**
+ * OPERATION
+ * 1. +, -, *, /, %
+ * 2. +=, -=, *=, /=
+ * 3. isNaN ?
+ * 4. null 
+ * 5. Number 
+ */
