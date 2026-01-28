@@ -14,6 +14,6 @@
 var peyaraPrice = 40;
 var applePrice = 250;
 
-
+console.log(peyaraPrice > applePrice);
 
 
