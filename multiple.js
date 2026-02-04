@@ -1,6 +1,7 @@
-const salary = 21001;
+const salary = 25001;
 const isBCS = true; 
 const height = 68;
+const hasCar = false; 
 
 // if(salary > 20000 && height > 66){
 //     console.log('Su-------patro');
@@ -20,10 +21,20 @@ const height = 68;
 
 // more and more condition
 
-if(salary > 25000 || height > 72 || isBCS == true){
+if(salary > 25000 || height > 72 && isBCS == true){
     console.log('eso baba kobul');
 }
 
 else {
     console.log('vaag tui mogbul');
+}
+
+// ---------COMPLEX CONDITION--------------
+
+if((salary > 25000 && hasCar == true) || isBCS == true){
+    console.log('tomar 14 gosti raji');
+}
+
+if((salary > 25000 || hasCar == true) && isBCS == true){
+    console.log('tomar 14 gosti raji');
 }
