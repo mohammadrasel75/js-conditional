@@ -11,8 +11,8 @@
 
 // --------------------------
 
-var peyaraPrice = 40;
-var applePrice = 250;
+// var peyaraPrice = 40;
+// var applePrice = 250;
 
 // console.log(peyaraPrice <= applePrice);
 
@@ -22,8 +22,13 @@ var applePrice = 250;
  * 
  */
 
-console.log(10 == '10');
+// console.log(10 == '10');
 
-console.log(120 == 'tomato');
+// console.log(120 == 'tomato');
+
+// ********************************
+
+console.log(10 != '10');
+console.log(10 !== '10');
 
 
